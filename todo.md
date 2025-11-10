@@ -54,4 +54,22 @@
 
 ### Finalisation
 - [x] Tester toutes les nouvelles fonctionnalités
-- [ ] Créer un nouveau checkpoint
+- [x] Créer un nouveau checkpoint
+
+## Optimisations et Déploiement - Phase 3
+
+### Optimisations
+- [x] Réduire la durée des animations pour une apparition plus réactive
+- [x] Optimiser les délais d'animation au scroll
+
+### Images "Qui est venu"
+- [x] Récupérer les images de célébrités du site original
+- [x] Créer une section "Ils ont aimé nos frites"
+- [x] Intégrer les images avec lightbox
+
+### Déploiement
+- [ ] Configurer le repository GitHub
+- [ ] Pusher le code sur GitHub
+- [ ] Configurer Vercel
+- [ ] Déployer sur Vercel
+- [ ] Créer un checkpoint final

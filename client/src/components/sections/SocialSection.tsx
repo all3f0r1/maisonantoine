@@ -46,7 +46,7 @@ export default function SocialSection() {
     >
       <div className="container mx-auto px-4">
         <div
-          className={`text-center mb-16 transition-all duration-1000 ${
+          className={`text-center mb-16 transition-all duration-500 ${
             isVisible
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-10"
@@ -64,7 +64,7 @@ export default function SocialSection() {
         </div>
 
         <div
-          className={`max-w-2xl mx-auto transition-all duration-1000 delay-200 ${
+          className={`max-w-2xl mx-auto transition-all duration-500 delay-200 ${
             isVisible
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-10"

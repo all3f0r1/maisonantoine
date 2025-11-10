@@ -109,7 +109,7 @@ export default function MenuSection() {
     >
       <div className="container mx-auto px-4">
         <div
-          className={`text-center mb-12 transition-all duration-1000 ${
+          className={`text-center mb-12 transition-all duration-500 ${
             isVisible
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-10"
@@ -190,7 +190,7 @@ export default function MenuSection() {
         </div>
 
         <div
-          className={`text-center mt-12 transition-all duration-1000 delay-500 ${
+          className={`text-center mt-12 transition-all duration-500 delay-500 ${
             isVisible
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-10"

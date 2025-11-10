@@ -83,6 +83,13 @@ export default function Header() {
             </Button>
             <Button
               variant="ghost"
+              onClick={() => scrollToSection("celebrities")}
+              className="hover:text-primary hover:bg-primary/10"
+            >
+              Célébrités
+            </Button>
+            <Button
+              variant="ghost"
               onClick={() => scrollToSection("social")}
               className="hover:text-primary hover:bg-primary/10"
             >
@@ -138,6 +145,13 @@ export default function Header() {
                 className="justify-start hover:text-primary hover:bg-primary/10"
               >
                 Galerie
+              </Button>
+              <Button
+                variant="ghost"
+                onClick={() => scrollToSection("celebrities")}
+                className="justify-start hover:text-primary hover:bg-primary/10"
+              >
+                Célébrités
               </Button>
               <Button
                 variant="ghost"

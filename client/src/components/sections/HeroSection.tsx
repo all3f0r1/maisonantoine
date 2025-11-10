@@ -26,18 +26,18 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 text-center">
-        <div className="animate-in fade-in slide-in-from-bottom duration-1000">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-primary mb-6 animate-in fade-in slide-in-from-bottom duration-1000 delay-200">
+        <div className="animate-in fade-in slide-in-from-bottom duration-500">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-primary mb-6 animate-in fade-in slide-in-from-bottom duration-500 delay-200">
             Maison Antoine
           </h1>
-          <p className="text-2xl md:text-4xl font-semibold text-accent mb-4 animate-in fade-in slide-in-from-bottom duration-1000 delay-400">
+          <p className="text-2xl md:text-4xl font-semibold text-accent mb-4 animate-in fade-in slide-in-from-bottom duration-500 delay-400">
             Les Meilleures Frites de Bruxelles
           </p>
-          <p className="text-xl md:text-2xl text-foreground/80 mb-8 animate-in fade-in slide-in-from-bottom duration-1000 delay-600">
+          <p className="text-xl md:text-2xl text-foreground/80 mb-8 animate-in fade-in slide-in-from-bottom duration-500 delay-600">
             Depuis 1948 • Place Jourdan
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-in fade-in slide-in-from-bottom duration-1000 delay-800">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-in fade-in slide-in-from-bottom duration-500 delay-800">
             <Button
               size="lg"
               onClick={() => scrollToSection("menu")}

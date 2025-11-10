@@ -62,7 +62,7 @@ export default function ContactSection() {
     >
       <div className="container mx-auto px-4">
         <div
-          className={`text-center mb-16 transition-all duration-1000 ${
+          className={`text-center mb-16 transition-all duration-500 ${
             isVisible
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-10"
@@ -79,7 +79,7 @@ export default function ContactSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Info */}
           <div
-            className={`space-y-6 transition-all duration-1000 ${
+            className={`space-y-6 transition-all duration-500 ${
               isVisible
                 ? "opacity-100 translate-x-0"
                 : "opacity-0 -translate-x-10"
@@ -176,7 +176,7 @@ export default function ContactSection() {
 
           {/* Contact Form */}
           <div
-            className={`transition-all duration-1000 delay-200 ${
+            className={`transition-all duration-500 delay-200 ${
               isVisible
                 ? "opacity-100 translate-x-0"
                 : "opacity-0 translate-x-10"
