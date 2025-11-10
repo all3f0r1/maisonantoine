@@ -5,6 +5,7 @@ import HistoireSection from "@/components/sections/HistoireSection";
 import MenuSection from "@/components/sections/MenuSection";
 import GalerieSection from "@/components/sections/GalerieSection";
 import ContactSection from "@/components/sections/ContactSection";
+import SocialSection from "@/components/sections/SocialSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <HistoireSection />
         <MenuSection />
         <GalerieSection />
+        <SocialSection />
         <ContactSection />
       </main>
       <Footer />

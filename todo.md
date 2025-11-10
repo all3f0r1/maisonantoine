@@ -37,4 +37,21 @@
 - [x] Créer robots.txt
 - [x] Optimiser les meta tags
 - [x] Tester le site complet
-- [ ] Créer un checkpoint final
+- [x] Créer un checkpoint final
+
+## Nouvelles Fonctionnalités - Phase 2
+
+### Intégration Facebook
+- [x] Ajouter un flux Facebook dans la galerie ou une section dédiée
+- [x] Intégrer le plugin Facebook Page
+
+### Menu Tarifaire 2024
+- [x] Récupérer et analyser le menu tarifaire 2024
+- [x] Moderniser la section menu avec les vrais tarifs
+- [x] Créer une version HTML interactive du menu
+- [x] Générer un PDF téléchargeable du menu
+- [x] Ajouter un bouton de téléchargement du menu PDF
+
+### Finalisation
+- [x] Tester toutes les nouvelles fonctionnalités
+- [ ] Créer un nouveau checkpoint
